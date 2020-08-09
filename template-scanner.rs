@@ -1,5 +1,15 @@
 use std::io::stdin;
 
+
+fn main() {
+    unimplemented!()
+}
+
+
+
+
+// TEMPLATE
+
 #[derive(Default)]
 struct Scanner {
     buffer: Vec<String>
@@ -15,8 +25,4 @@ impl Scanner {
             self.buffer = input.split_whitespace().rev().map(String::from).collect();
         }
     }
-}
-
-fn main() {
-    unimplemented!()
 }
