@@ -1,5 +1,3 @@
-use std::io::stdin;
-
 
 fn main() {
     unimplemented!()
@@ -21,7 +19,7 @@ impl Scanner {
                 return token.parse().ok().expect("Failed parse");
             }
             let mut input = String::new();
-            stdin().read_line(&mut input).expect("Failed read");
+            std::io::stdin().read_line(&mut input).expect("Failed read");
             self.buffer = input.split_whitespace().rev().map(String::from).collect();
         }
     }
