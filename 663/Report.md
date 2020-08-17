@@ -2,7 +2,7 @@
 
 (2nd participation)
 
-Rank 2863, 535 -> 923 (+388)
+Rank 2863, 2101 points, 535 [Newbie] -> 923 [Newbie] (+388)
 
 Solved:
 * [A - Suborrays](https://codeforces.com/contest/1391/problem/A) [00:15] [470/500]
