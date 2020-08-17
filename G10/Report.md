@@ -1,8 +1,8 @@
-# Codeforces round 661 (Div. 3)
+# Codeforces global round 10
 
-(First participation)
+(3rd participation)
 
-Rank 2863, 535 -> 923 (+388)
+Rank 2203, 2941 points, 923 [Newbie] -> 1240 [Pupil] (+317)
 
 Solved:
 * [A - Omkar and Password](https://codeforces.com/contest/1392/problem/A) [00:12] [484/500]
