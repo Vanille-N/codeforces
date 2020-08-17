@@ -1,6 +1,6 @@
-# Codeforces round 661 (Div. 3)
+# Codeforces round 663 (Div. 2)
 
-(First participation)
+(2nd participation)
 
 Rank 2863, 535 -> 923 (+388)
 
