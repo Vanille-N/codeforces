@@ -1,8 +1,11 @@
 # Codeforces round 661 (Div. 3)
 
-(1st participation)
+![](https://img.shields.io/badge/Participation-1-blueviolet)
+![](https://img.shields.io/badge/Rank-2242-blue)
 
-Rank 2242, 0 [Unrated] -> 535 [Newbie] (+535)
+![](https://img.shields.io/badge/Unrated-0-white) →
+![](https://img.shields.io/badge/Newbie-535-lightgrey)
+![](https://img.shields.io/badge/-%2B535-green)
 
 ## Solved:
 * [A - Remove Smallest](https://codeforces.com/contest/1399/problem/A)
