@@ -4,8 +4,12 @@
 
 Rank 2203, 2941 points, 923 [Newbie] -> 1240 [Pupil] (+317)
 
-Solved:
-* [A - Omkar and Password](https://codeforces.com/contest/1392/problem/A) [00:12] [484/500]
-* [B - Omkar and Infinity Clock](https://codeforces.com/contest/1392/problem/B) [00:31] [688/750]
-* [C - Omkar and Waterslide](https://codeforces.com/contest/1392/problem/C) [00:41] [891/1000]
-* [D - Omkar and Bed Wars](https://codeforces.com/contest/1392/problem/D) [01:58] [878/1500]
+## Solved:
+* [A - Omkar and Password](https://codeforces.com/contest/1392/problem/A)
+![](https://img.shields.io/badge/Time-00%3A12-yellowgreen)
+* [B - Omkar and Infinity Clock](https://codeforces.com/contest/1392/problem/B)
+![](https://img.shields.io/badge/Time-00%3A31-yellowgreen)
+* [C - Omkar and Waterslide](https://codeforces.com/contest/1392/problem/C)
+![](https://img.shields.io/badge/Time-00%3A41-yellowgreen)
+* [D - Omkar and Bed Wars](https://codeforces.com/contest/1392/problem/D)
+![](https://img.shields.io/badge/Time-01%3A58-yellowgreen)
