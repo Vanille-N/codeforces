@@ -1,6 +1,8 @@
 # Codeforces round 663 (Div. 2)
 
-(2nd participation)
+![](https://img.shields.io/badge/Participation-2-blueviolet)
+![](https://img.shields.io/badge/Rank-2863-blue)
+![](https://img.shields.io/badge/Points-2101-orange)
 
 ![](https://img.shields.io/badge/Newbie-535-lightgrey) →
 ![](https://img.shields.io/badge/Newbie-923-lightgrey)
