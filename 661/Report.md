@@ -14,5 +14,12 @@ Rank 2242, 0 [Unrated] -> 535 [Newbie] (+535)
 * [D - Binary String to Subsequences](https://codeforces.com/contest/1399/problem/D)
 ![](https://img.shields.io/badge/Time-01%3A25-yellowgreen)
 
-Attempted:
+## Attempted:
 * [E - Weights Division](https://codeforces.com/contest/1399/problem/E)
+
+## Submissions:
+* [A - 88973817](https://codeforces.com/contest/1399/submission/88973817)
+* [B - 88989375](https://codeforces.com/contest/1399/submission/88989375)
+* [B - 88994776](https://codeforces.com/contest/1399/submission/88994776)
+* [C - 89020550](https://codeforces.com/contest/1399/submission/89020550)
+* [D - 89030954](https://codeforces.com/contest/1399/submission/89030954)
