@@ -1,8 +1,12 @@
 # Codeforces global round 10
 
-(3rd participation)
+![](https://img.shields.io/badge/Participation-3-blueviolet)
+![](https://img.shields.io/badge/Rank-2203-blue)
+![](https://img.shields.io/badge/Points-2941-orange)
 
-Rank 2203, 2941 points, 923 [Newbie] -> 1240 [Pupil] (+317)
+![](https://img.shields.io/badge/Newbie-923-lightgrey) →
+![](https://img.shields.io/badge/Pupil-1240-brightgreen)
+![](https://img.shields.io/badge/-%2B317-green)
 
 ## Solved:
 * [A - Omkar and Password](https://codeforces.com/contest/1392/problem/A)
