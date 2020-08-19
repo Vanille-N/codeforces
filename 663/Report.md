@@ -2,7 +2,9 @@
 
 (2nd participation)
 
-Rank 2863, 2101 points, 535 [Newbie] -> 923 [Newbie] (+388)
+![](https://img.shields.io/badge/Newbie-535-lightgrey) →
+![](https://img.shields.io/badge/Newbie-923-lightgrey)
+![](https://img.shields.io/badge/-%2B388-green)
 
 ## Solved:
 * [A - Suborrays](https://codeforces.com/contest/1391/problem/A)
@@ -17,6 +19,10 @@ Rank 2863, 2101 points, 535 [Newbie] -> 923 [Newbie] (+388)
 
 ## Submissions:
 * [A - 89423384](https://codeforces.com/contest/1391/submission/89423384)
+![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [B - 89430043](https://codeforces.com/contest/1391/submission/89430043)
+![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [C - 89439136](https://codeforces.com/contest/1391/submission/89439136)
+![](https://img.shields.io/badge/-Failed%20test%201-yellow)
 * [C - 89439267](https://codeforces.com/contest/1391/submission/89439267)
+![](https://img.shields.io/badge/-Accepted-brightgreen)
