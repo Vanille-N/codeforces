@@ -13,7 +13,7 @@ def get_title(rating):
     elif rating <= 1200:
         return "Newbie", "lightgray"
     elif rating <= 1400:
-        return "Pupil", "green"
+        return "Pupil", "lightgreen"
     elif rating <= 1600:
         return "Specialist", "cyan"
     elif rating <= 1900:
