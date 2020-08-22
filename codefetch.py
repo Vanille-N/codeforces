@@ -38,8 +38,15 @@ contests = web + "contests/with/" + handle
 submissions = web + "submissions/" + handle
 
 f = requests.get(profile)
-text = f.text.replace("\n", " ").replace("\r", "")
+text = f.text.replace("\n", "").replace("\r", "").replace(" ", "")
 #print(f.text)
 
-current_rating = int(re.search("Contest rating.*?([0-9]+)", text).group(1))
-print(current_rating)
+participations = eval(re.search("data.push\((.*)\);data.push", text).group(1))
+rating_changes = [0]
+successive_ranks = [0]
+successive_ratings = [0]
+
+for part in participations:
+    rating_changes.append(part[5])
+    successive_ranks.append(part[6])
+    successive_ratings.append(part[1])
