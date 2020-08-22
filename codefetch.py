@@ -31,6 +31,9 @@ def get_title(rating):
     else:
         return "Legendary Grandmaster", "crimson"
 
+def sanitize(s):
+    return s.replace("+", "%2B").replace("-", "--").replace(":", "%3A").replace(" ", "%20").replace("/", "%2F")
+
 web = "https://codeforces.com/"
 handle = "Zwgtwz"
 profile = web + "profile/" + handle
