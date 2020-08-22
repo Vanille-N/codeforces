@@ -93,3 +93,21 @@ header_template = """# {name}
 ![](https://img.shields.io/badge/{new_title}-{new_rating}-{new_color})
 ![](https://img.shields.io/badge/-{delta}-{delta_color})
 """
+
+
+for i in range(len(participations_names)):
+    name = participations_names[i]
+    id = participations_id[i]
+    folder = participations_folder[i]
+    previous_rating = successive_ratings[i]
+    new_rating = successive_ratings[i+1]
+    delta = rating_changes[i+1]
+    previous_title, previous_color = get_title(previous_rating)
+    new_title, new_color = get_title(new_rating)
+    count = i + 1
+    rank = successive_ranks[i+1]
+    delta_color = "green" if delta >= 0 else "red"
+    print(header_template.format(count=count, rank=rank, prev_title=sanitize(previous_title),
+        prev_rating=previous_rating, prev_color=previous_color, new_title=sanitize(new_title),
+        new_rating=new_rating, new_color=new_color, delta=sanitize("{0:+d}".format(delta)),
+        delta_color=delta_color, name=name))
