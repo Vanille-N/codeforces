@@ -85,3 +85,11 @@ with open(".participations.py") as f:
 #######################
 
 header_template = """# {name}
+
+![](https://img.shields.io/badge/Participation-{count}-blueviolet)
+![](https://img.shields.io/badge/Rank-{rank}-blue)
+
+![](https://img.shields.io/badge/{prev_title}-{prev_rating}-{prev_color}) →
+![](https://img.shields.io/badge/{new_title}-{new_rating}-{new_color})
+![](https://img.shields.io/badge/-{delta}-{delta_color})
+"""
