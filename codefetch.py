@@ -60,14 +60,13 @@ front_template = """# Codeforces
 
 Transcription of my submissions for the Codeforces contests: [https://codeforces.com/](https://codeforces.com/)
 
-Handle: [![](https://img.shields.io/badge/{}-{}-{})](https://codeforces.com/profile/{})
+Handle: [![](https://img.shields.io/badge/{title}-{handle}-{color})](https://codeforces.com/profile/{handle})
 
 All participations done in Rust.
 
-""".format(current_title, handle, current_color, handle)
+""".format(title=current_title, handle=handle, color=current_color)
 
-participation_template = "* [{}](https://codeforces.com/contest/{}) as ![](https://img.shields.io/badge/{}-{}-{})\n"
-
+participation_template = "* [{name}](https://codeforces.com/contest/{id}) as ![](https://img.shields.io/badge/{title}-{handle}-{color})\n"
 
 participations_names = []
 participations_id = []
