@@ -50,3 +50,15 @@ for part in participations:
     rating_changes.append(part[5])
     successive_ranks.append(part[6])
     successive_ratings.append(part[1])
+
+current_title, current_color = get_title(successive_ratings[-1])
+
+front_template = """# Codeforces
+
+Transcription of my submissions for the Codeforces contests: [https://codeforces.com/](https://codeforces.com/)
+
+Handle: [![](https://img.shields.io/badge/{}-{}-{})](https://codeforces.com/profile/{})
+
+All participations done in Rust.
+
+""".format(current_title, handle, current_color, handle)
