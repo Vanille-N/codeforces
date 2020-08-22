@@ -62,3 +62,20 @@ Handle: [![](https://img.shields.io/badge/{}-{}-{})](https://codeforces.com/prof
 All participations done in Rust.
 
 """.format(current_title, handle, current_color, handle)
+
+participation_template = "* [{}](https://codeforces.com/contest/{}) as ![](https://img.shields.io/badge/{}-{}-{})\n"
+
+
+participations_names = []
+participations_id = []
+participations_folder = []
+with open(".participations.py") as f:
+    for idx, val in enumerate(eval(f.read())):
+        name, id, folder = val
+        participations_names.append(name)
+        participations_id.append(id)
+        participations_folder.append(folder)
+        title, color = get_title(successive_ratings[idx])
+        front_template += participation_template.format(name, id, title, handle, color)
+
+print(front_template)
