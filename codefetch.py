@@ -78,6 +78,10 @@ with open(".participations.py") as f:
         participations_id.append(id)
         participations_folder.append(folder)
         title, color = get_title(successive_ratings[idx])
-        front_template += participation_template.format(name, id, title, handle, color)
+        front_template += participation_template.format(name=name, id=id, title=sanitize(title), handle=sanitize(handle), color=color)
 
-print(front_template)
+#######################
+### WRITE README.md ###
+#######################
+
+header_template = """# {name}
