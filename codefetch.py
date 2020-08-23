@@ -121,6 +121,18 @@ solved_time_template = """![](https://img.shields.io/badge/Time-{time}-yellowgre
 solved_points_template = """![](https://img.shields.io/badge/Points-{obtained}%2F{available}-blue)
 """
 
+browser = create_browser('/snap/bin/chromium.chromedriver') #DON'T FORGET TO CHANGE THIS AS YOUR DIRECTORY
+
+
+standings = []
+for id in participations_id:
+    print(id)
+    browser.get(scoreboard.format(id=id))
+    text = browser.page_source #.replace("\n", "").replace("\r", "").replace(" ", "")
+    print(text)
+    print(1 / 0)
+
+
 for i in range(len(participations_names)):
     name = participations_names[i]
     id = participations_id[i]
