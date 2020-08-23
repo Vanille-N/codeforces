@@ -18,3 +18,8 @@
 * [C - Mere Array](https://codeforces.com/contest/1401/problem/C)
 ![](https://img.shields.io/badge/Time-01%3A30-yellowgreen)
 ![](https://img.shields.io/badge/Points-960%2F1500-blue)
+
+## Submissions:
+* [A - 90603978](https://codeforces.com/contest/1401/submission/90603978)
+* [B - 90588552](https://codeforces.com/contest/1392/submission/90588552)
+* [C - 90572245](https://codeforces.com/contest/1392/submission/90572245)
