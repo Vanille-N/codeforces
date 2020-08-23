@@ -5,10 +5,6 @@
 # Automatic profile updater for Codeforces
 
 import requests
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from requests_html import HTMLSession
 import re
 
 def create_browser(webdriver_path):
@@ -122,16 +118,10 @@ solved_time_template = """![](https://img.shields.io/badge/Time-{time}-yellowgre
 solved_points_template = """![](https://img.shields.io/badge/Points-{obtained}%2F{available}-blue)
 """
 
-browser = create_browser('/snap/bin/chromium.chromedriver') #DON'T FORGET TO CHANGE THIS AS YOUR DIRECTORY
-session = HTMLSession()
-
 standings = []
 for id in participations_id:
     print(id)
-    # browser.get(scoreboard.format(id=id))
-    # text = browser.page_source #.replace("\n", "").replace("\r", "").replace(" ", "")
-    r = session.get(scoreboard.format(id=id))
-    text = r.html.render()
+
     print(text)
     print(1 / 0)
 
