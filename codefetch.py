@@ -5,7 +5,20 @@
 # Automatic profile updater for Codeforces
 
 import requests
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import re
+
+def create_browser(webdriver_path):
+    #create a selenium object that mimics the browser
+    browser_options = Options()
+    #headless tag created an invisible browser
+    browser_options.add_argument("--headless")
+    browser_options.add_argument('--no-sandbox')
+    browser = webdriver.Chrome(webdriver_path, chrome_options=browser_options)
+    print("Done Creating Browser")
+    return browser
 
 def get_title(rating):
     if rating == 0:
@@ -39,6 +52,7 @@ handle = "Zwgtwz"
 profile = web + "profile/" + handle
 contests = web + "contests/with/" + handle
 submissions = web + "submissions/" + handle
+scoreboard = web + "contest/{id}/standings/friends/true"
 
 f = requests.get(profile)
 text = f.text.replace("\n", "").replace("\r", "").replace(" ", "")
