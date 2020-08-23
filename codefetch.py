@@ -101,13 +101,25 @@ with open(".participations.py") as f:
 header_template = """# {name}
 
 ![](https://img.shields.io/badge/Participation-{count}-blueviolet)
-![](https://img.shields.io/badge/Rank-{rank}-blue)
+![](https://img.shields.io/badge/Rank-{rank}-blue)"""
 
+score_template = """![](https://img.shields.io/badge/Points-{points}-orange)"""
+
+rating_template = """
 ![](https://img.shields.io/badge/{prev_title}-{prev_rating}-{prev_color}) →
 ![](https://img.shields.io/badge/{new_title}-{new_rating}-{new_color})
 ![](https://img.shields.io/badge/-{delta}-{delta_color})
 """
 
+solved_title = """# Solved
+"""
+
+solved_template = """* [{type} - {title}](https://codeforces.com/contest/{id}/problem/{type})
+"""
+solved_time_template = """![](https://img.shields.io/badge/Time-{time}-yellowgreen)
+"""
+solved_points_template = """![](https://img.shields.io/badge/Points-{obtained}%2F{available}-blue)
+"""
 
 for i in range(len(participations_names)):
     name = participations_names[i]
