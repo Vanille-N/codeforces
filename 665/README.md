@@ -7,3 +7,8 @@
 ![](https://img.shields.io/badge/Pupil-1240-brightgreen) →
 ![](https://img.shields.io/badge/Pupil-1345-brightgreen)
 ![](https://img.shields.io/badge/-%2B105-green)
+
+## Solved:
+* [A - Distance and Axis](https://codeforces.com/contest/1401/problem/A)
+* [B - Ternary Sequence](https://codeforces.com/contest/1401/problem/B)
+* [C - Mere Array](https://codeforces.com/contest/1401/problem/C)
