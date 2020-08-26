@@ -1,4 +1,77 @@
 
+fn main() {
+    let mut scan = Scanner::default();
+    let t: u64 = scan.next();
+    for _ in 0..t {
+        let n: u64 = scan.next();
+        let a: Vec<u64> = (0..n).map(|_| scan.next()).collect();
+        println!("{}", count_zigzags(a));
+    }
+}
+
+fn count_zigzags(a: Vec<u64>) -> u64 {
+    use interval_tree::IntervalTree;
+    use std::ops::Bound::*;
+    use std::collections::HashSet;
+    let same = find_pairs(&a);
+    let mut tree_incl = IntervalTree::default();
+    let mut tree_excl = IntervalTree::default();
+    for &(i, k) in &same {
+        tree_excl.insert((Excluded(i), Excluded(k)));
+        tree_incl.insert((Included(i), Included(k)));
+    }
+    let mut count = 0;
+    for &(j, l) in &same {
+        let has_j = tree_excl.get_interval_overlaps(&(Included(j), Included(j)))
+            .iter()
+            .cloned()
+            .map(|intv| into_tuple(*intv))
+            .collect::<HashSet<_>>();
+        let has_l = tree_incl.get_interval_overlaps(&(Included(l), Included(l)))
+            .iter()
+            .cloned()
+            .map(|intv| into_tuple(*intv))
+            .collect::<HashSet<_>>();
+        // println!("{:?} \\ {:?}", has_j, has_l);
+        count += has_j.difference(&has_l).count() as u64;
+    }
+    count
+}
+
+use std::ops::Bound;
+fn into_tuple((i, j): (Bound<usize>, Bound<usize>)) -> (usize, usize) {
+    (into_u(i), into_u(j))
+}
+
+fn into_u(i: Bound<usize>) -> usize {
+    match i {
+        Bound::Excluded(x) => x,
+        Bound::Included(x) => x,
+        _ => unreachable!(),
+    }
+}
+
+fn find_pairs(a: &Vec<u64>) -> Vec<(usize, usize)> {
+    let items = {
+        let mut items: Vec<Vec<usize>> = vec![vec![]; a.len()];
+        for (idx, val) in a.iter().enumerate() {
+            items[*val as usize].push(idx);
+        }
+        items
+    };
+    // println!("{:?}", items);
+    let mut res = Vec::new();
+    for i in 0..items.len() {
+        for start in 0..items[i].len() {
+            for end in start+1..items[i].len() {
+                res.push((items[i][start], items[i][end]));
+            }
+        }
+    }
+    // println!("{:?}", res);
+    res
+}
+
 // TEMPLATE
 
 #[derive(Default)]
