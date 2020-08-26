@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/Participation-1-blueviolet)
 ![](https://img.shields.io/badge/Rank-2242-blue)
+![](https://img.shields.io/badge/Penalty-195-red)
 
 ![](https://img.shields.io/badge/Unrated-0-white) →
 ![](https://img.shields.io/badge/Newbie-535-lightgrey)
