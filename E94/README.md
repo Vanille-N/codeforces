@@ -10,8 +10,11 @@
 
 ## Solved:
 * [A - String Similarity](https://codeforces.com/contest/1400/problem/A)
+![](https://img.shields.io/badge/Time-00%3A10-yellowgreen)
 * [B - RPG Protagonist](https://codeforces.com/contest/1400/problem/B)
+![](https://img.shields.io/badge/Time-00%3A39-yellowgreen)
 * [C - Binary String Reconstruction](https://codeforces.com/contest/1400/problem/C)
+![](https://img.shields.io/badge/Time-01%3A14-yellowgreen)
 
 ## Attempted:
 * [D - Zigzags](https://codeforces.com/contest/1400/problem/D)
