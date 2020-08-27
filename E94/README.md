@@ -21,3 +21,12 @@
 
 ## Attempted:
 * [D - Zigzags](https://codeforces.com/contest/1400/problem/D)
+
+## Submissions:
+* [A - 90918258](https://codeforces.com/contest/1400/submission/90918258)
+* [B - 90934965](https://codeforces.com/contest/1400/submission/90934965)
+* [B - 90937466](https://codeforces.com/contest/1400/submission/90937466)
+* [C - 90947411](https://codeforces.com/contest/1400/submission/90947411)
+* [C - 90948212](https://codeforces.com/contest/1400/submission/90948212)
+* [C - 90957144](https://codeforces.com/contest/1400/submission/90957144)
+* [D - 90981612](https://codeforces.com/contest/1400/submission/90981612)
