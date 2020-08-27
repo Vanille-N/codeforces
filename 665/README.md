@@ -4,8 +4,8 @@
 ![](https://img.shields.io/badge/Rank-4974-blue)
 ![](https://img.shields.io/badge/Points-2132-orange)
 
-![](https://img.shields.io/badge/Pupil-1240-brightgreen) →
-![](https://img.shields.io/badge/Pupil-1345-brightgreen)
+![](https://img.shields.io/badge/Pupil-1240-lightgreen) →
+![](https://img.shields.io/badge/Pupil-1345-lightgreen)
 ![](https://img.shields.io/badge/-%2B105-green)
 
 ## Solved:
