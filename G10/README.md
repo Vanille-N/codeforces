@@ -1,11 +1,11 @@
-# Codeforces global round 10
+# Codeforces global round 10 (Div. 2)
 
 ![](https://img.shields.io/badge/Participation-3-blueviolet)
 ![](https://img.shields.io/badge/Rank-2203-blue)
 ![](https://img.shields.io/badge/Points-2941-orange)
 
 ![](https://img.shields.io/badge/Newbie-923-lightgrey) →
-![](https://img.shields.io/badge/Pupil-1240-brightgreen)
+![](https://img.shields.io/badge/Pupil-1240-lightgreen)
 ![](https://img.shields.io/badge/-%2B317-green)
 
 ## Solved:
