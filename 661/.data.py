@@ -1,7 +1,5 @@
-eval(open("../.meta.py").read())
-
 contest_name = "Codeforces Round #661 (Div. 3)"
-number = 1399
+id = 1399
 rank = 2242
 type = "educ"
 
