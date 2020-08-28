@@ -56,3 +56,12 @@ report_template = """# {contest_name}
 ![]({next_rating})
 ![]({rating_change})
 """
+
+solution_template = """* [{problem} - {name}](https://codeforces.com/contest/{num}/problem/{problem})
+![]({time})
+![]({score})
+"""
+
+submission_template = """* [{problem} - {ident}](https://codeforces.com/contest/{num}/submission/{ident})
+![]({verdict})
+"""
