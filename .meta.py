@@ -1,7 +1,7 @@
 web = "https://codeforces.com"
-profile = "{web}/profile/{handle}"
+profile = web + "/profile/{handle}"
 
-main_header = """# Codeforces
+main_template = """# Codeforces
 
 Transcription of my submissions for the Codeforces contests: [{web}]({web})
 
@@ -17,12 +17,13 @@ contest_url_template = web + "/contest/{id}"
 
 def accepted(): return ("Accepted", "green")
 def wrong_ans(num, pre=False):
-    return ("Wrong answer on {pre}test {num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1 else "red")
+    return ("Wrong%20answer%20on%20{pre}test%20{num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1 else "red")
 def runtime(num, pre=False):
-    return ("Runtime error on {pre}test {num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1  else "red")
+    return ("Runtime%20error%20on%20{pre}test%20{num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1  else "red")
 
 shield_base = "https://img.shields.io/badge/"
 badge_template = shield_base + "{title}-{handle}-{color}"
+rating_template = shield_base + "{title}-{rating}-{color}"
 time_template = shield_base + "Time-{hours:>2}%3A{minutes:>2}-yellowgreen"
 points_template = shield_base + "Points-{points}%2F{maxi}-blue"
 penalty_template = shield_base + "Penalty-{penalty}-red"
@@ -43,3 +44,14 @@ def find_title(rating):
     elif rating <= 2600: return ("Grandmaster", "red")
     elif rating <= 3000: return ("International%20Grandmaster", "crimson")
     else: return ("Legendary%20Grandmaster", crimson)
+
+report_template = """# {contest_name}
+
+![]({participation_badge})
+![]({rank_badge})
+![]({score})
+
+![]({prev_rating}) →
+![]({next_rating})
+![]({rating_change})
+"""

@@ -1,7 +1,7 @@
 contest_name = "Codeforces Round #661 (Div. 3)"
-id = 1399
+num = 1399
 rank = 2242
-type = "educ"
+educ = True
 
 penalty = 195
 rating_change = 535
