@@ -1,6 +1,9 @@
 web = "https://codeforces.com"
 profile = web + "/profile/{handle}"
 
+file_template = "{id}/README.md"
+main_file = "README.md"
+
 main_template = """# Codeforces
 
 Transcription of my submissions for the Codeforces contests: [{web}]({web})
@@ -15,7 +18,7 @@ main_entry = "* [{contest_name}]({contest_url}) as ![]({badge})\n"
 
 contest_url_template = web + "/contest/{num}"
 
-def accepted(): return ("Accepted", "green")
+def accepted(): return ("Accepted", "brightgreen")
 def wrong_ans(num, pre=False):
     return ("Wrong%20answer%20on%20{pre}test%20{num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1 else "red")
 def runtime(num, pre=False):
@@ -47,7 +50,7 @@ def find_title(rating):
     elif rating <= 3000: return ("International%20Grandmaster", "crimson")
     else: return ("Legendary%20Grandmaster", crimson)
 
-report_template = """# {contest_name}
+report_template = """# [{contest_name}](https://codeforces.com/contest/{num})
 
 ![]({participation_badge})
 ![]({rank_badge})
