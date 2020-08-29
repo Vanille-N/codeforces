@@ -35,10 +35,8 @@ for cnt,id in enumerate(participations):
         contest_name=contest_name,
         contest_url=contest_url_template.format(num=num),
         badge=badge_template.format(title=prev_title, color=prev_color, handle=handle))
+    report += "\n## Solutions\n"
     for sol in solutions:
-        print(sol)
-        if not educ:
-            print(sol["points"])
         report += solution_template.format(
             problem=sol["problem"],
             name=sol["name"],
@@ -48,6 +46,9 @@ for cnt,id in enumerate(participations):
                 penalty_template.format(penalty=sol["penalty"]) if educ
                 else score_template.format(points=sol["points"][0], maxi=sol["points"][1])
                 ))
+    report += "\n## Submissions\n"
+    for sub in submissions:
+        report += submission_template
 
     print(report)
     print("----------------")
