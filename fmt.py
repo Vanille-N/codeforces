@@ -19,6 +19,7 @@ for cnt,id in enumerate(participations):
     next_title, next_color = find_title(next_rating)
     report = report_template.format(
         contest_name=contest_name,
+        num=num,
         participation_badge=count_template.format(number=cnt+1),
         rank_badge=rank_template.format(rank=rank),
         score=(
@@ -58,8 +59,8 @@ for cnt,id in enumerate(participations):
                 )
             )
 
-    print(report)
-    print("----------------")
+    with open(file_template.format(id=id), 'w') as f:
+        f.write(report)
 
 current_rating = next_rating
 current_title, current_color = find_title(current_rating)
@@ -68,4 +69,5 @@ main = main.format(
     current_badge=badge_template.format(title=current_title, color=current_color, handle=handle),
     profile=profile.format(handle=handle),
     )
-print(main)
+with open(main_file, 'w') as f:
+    f.write(main)
