@@ -44,7 +44,7 @@ for cnt,id in enumerate(participations):
             time=time_template.format(hours=sol["time"][0], minutes=sol["time"][1]),
             score=(
                 penalty_template.format(penalty=sol["penalty"]) if educ
-                else score_template.format(points=sol["points"][0], maxi=sol["points"][1])
+                else points_template.format(points=sol["points"][0], maxi=sol["points"][1])
                 ))
     report += "\n## Submissions\n"
     for sub in submissions:
