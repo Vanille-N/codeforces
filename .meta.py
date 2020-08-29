@@ -32,6 +32,7 @@ count_template = shield_base + "Participation-{number}-blueviolet"
 rank_template = shield_base + "Rank-{rank}-orange"
 gain_template = shield_base + "-%2B{gain}-green"
 loss_template = shield_base + "---{loss}-red"
+verdict_template = shield_base + "-{status}-{color}"
 
 def find_title(rating):
     if rating == 0: return ("Unrated", "white")

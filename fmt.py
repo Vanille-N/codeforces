@@ -51,7 +51,11 @@ for cnt,id in enumerate(participations):
         report += submission_template.format(
             problem=sub["problem"],
             ident=sub["id"],
-            num=num
+            num=num,
+            verdict=verdict_template.format(
+                status=sub["status"][0],
+                color=sub["status"][1],
+                )
             )
 
     print(report)
