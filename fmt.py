@@ -38,4 +38,11 @@ for cnt,id in enumerate(participations):
     print(report)
     print("----------------")
 
+current_rating = next_rating
+current_title, current_color = find_title(current_rating)
+main = main.format(
+    web=web,
+    current_badge=badge_template.format(title=current_title, color=current_color, handle=handle),
+    profile=profile.format(handle=handle),
+    )
 print(main)
