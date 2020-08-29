@@ -31,8 +31,21 @@ impl AtomicScannable for f64 {}
 impl AtomicScannable for usize {}
 impl AtomicScannable for isize {}
 impl AtomicScannable for String {}
+trait Scan<T> {
+    fn item(&mut self) -> T;
+}
 impl<T: AtomicScannable> Scan<T> for Scanner {
     fn item(&mut self) -> T {
         self.atomic_scan()
+    }
+}
+impl<T, U> Scan<(T, U)> for Scanner where Scanner: Scan<T> + Scan<U> {
+    fn item(&mut self) -> (T, U) {
+        (self.item(), self.item())
+    }
+}
+impl<T, U, V> Scan<(T, U, V)> for Scanner where Scanner: Scan<T> + Scan<U> + Scan<V> {
+    fn item(&mut self) -> (T, U, V) {
+        (self.item(), self.item(), self.item())
     }
 }
