@@ -37,7 +37,7 @@ submissions = [
     }, {
         "problem": "C",
         "id": 89439136,
-        "status": wrong_ans(1),
+        "status": wrong_ans(1, pre=True),
     }, {
         "problem": "C",
         "id": 89439267,
