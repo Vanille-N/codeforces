@@ -13,7 +13,7 @@ All participations done in Rust.
 
 main_entry = "* [{contest_name}]({contest_url}) as ![]({badge})\n"
 
-contest_url_template = web + "/contest/{id}"
+contest_url_template = web + "/contest/{num}"
 
 def accepted(): return ("Accepted", "green")
 def wrong_ans(num, pre=False):
@@ -24,7 +24,7 @@ def runtime(num, pre=False):
 shield_base = "https://img.shields.io/badge/"
 badge_template = shield_base + "{title}-{handle}-{color}"
 rating_template = shield_base + "{title}-{rating}-{color}"
-time_template = shield_base + "Time-{hours:>2}%3A{minutes:>2}-yellowgreen"
+time_template = shield_base + "Time-{hours:>02}%3A{minutes:>02}-yellowgreen"
 score_template = shield_base + "Points-{points}-blue"
 points_template = shield_base + "Points-{points}%2F{maxi}-blue"
 penalty_template = shield_base + "Penalty-{penalty}-red"
