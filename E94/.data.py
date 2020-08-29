@@ -53,6 +53,6 @@ submissions = [
     }, {
         "problem": "D",
         "id": 90981612,
-        "status": wrong_ans(2),
+        "status": runtime(5),
     }
 ]

@@ -1,14 +1,14 @@
-# Codeforces Educational Round 94 (Div. 2)
+# [Educational Codeforces Round 94 (Div. 2)](https://codeforces.com/contest/1400)
 
 ![](https://img.shields.io/badge/Participation-5-blueviolet)
-![](https://img.shields.io/badge/Rank-1766-blue)
+![](https://img.shields.io/badge/Rank-1766-orange)
 ![](https://img.shields.io/badge/Penalty-195-red)
 
 ![](https://img.shields.io/badge/Pupil-1345-lightgreen) →
-![](https://img.shields.io/badge/Specialist-1766-cyan)
+![](https://img.shields.io/badge/Specialist-1509-cyan)
 ![](https://img.shields.io/badge/-%2B164-green)
 
-## Solved:
+## Solutions
 * [A - String Similarity](https://codeforces.com/contest/1400/problem/A)
 ![](https://img.shields.io/badge/Time-00%3A10-yellowgreen)
 ![](https://img.shields.io/badge/Penalty-10-red)
@@ -19,20 +19,17 @@
 ![](https://img.shields.io/badge/Time-01%3A14-yellowgreen)
 ![](https://img.shields.io/badge/Penalty-84-red)
 
-## Attempted:
-* [D - Zigzags](https://codeforces.com/contest/1400/problem/D)
-
-## Submissions:
+## Submissions
 * [A - 90918258](https://codeforces.com/contest/1400/submission/90918258)
 ![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [B - 90934965](https://codeforces.com/contest/1400/submission/90934965)
-![](https://img.shields.io/badge/-Failed%20test%202-red)
+![](https://img.shields.io/badge/-Wrong%20answer%20on%20test%202-red)
 * [B - 90937466](https://codeforces.com/contest/1400/submission/90937466)
 ![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [C - 90947411](https://codeforces.com/contest/1400/submission/90947411)
-![](https://img.shields.io/badge/-Failed%20test%202-red)
+![](https://img.shields.io/badge/-Wrong%20answer%20on%20test%202-red)
 * [C - 90948212](https://codeforces.com/contest/1400/submission/90948212)
-![](https://img.shields.io/badge/-Failed%20test%201-yellow)
+![](https://img.shields.io/badge/-Wrong%20answer%20on%20test%201-yellow)
 * [C - 90957144](https://codeforces.com/contest/1400/submission/90957144)
 ![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [D - 90981612](https://codeforces.com/contest/1400/submission/90981612)

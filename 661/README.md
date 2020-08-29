@@ -1,14 +1,14 @@
-# Codeforces round 661 (Div. 3)
+# [Codeforces Round #661 (Div. 3)](https://codeforces.com/contest/1399)
 
 ![](https://img.shields.io/badge/Participation-1-blueviolet)
-![](https://img.shields.io/badge/Rank-2242-blue)
+![](https://img.shields.io/badge/Rank-2242-orange)
 ![](https://img.shields.io/badge/Penalty-195-red)
 
 ![](https://img.shields.io/badge/Unrated-0-white) →
 ![](https://img.shields.io/badge/Newbie-535-lightgrey)
 ![](https://img.shields.io/badge/-%2B535-green)
 
-## Solved:
+## Solutions
 * [A - Remove Smallest](https://codeforces.com/contest/1399/problem/A)
 ![](https://img.shields.io/badge/Time-00%3A12-yellowgreen)
 ![](https://img.shields.io/badge/Penalty-12-red)
@@ -22,14 +22,11 @@
 ![](https://img.shields.io/badge/Time-01%3A25-yellowgreen)
 ![](https://img.shields.io/badge/Penalty-85-red)
 
-## Attempted:
-* [E - Weights Division](https://codeforces.com/contest/1399/problem/E)
-
-## Submissions:
+## Submissions
 * [A - 88973817](https://codeforces.com/contest/1399/submission/88973817)
 ![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [B - 88989375](https://codeforces.com/contest/1399/submission/88989375)
-![](https://img.shields.io/badge/-Failed%20test%201-yellow)
+![](https://img.shields.io/badge/-Wrong%20answer%20on%20test%201-yellow)
 * [B - 88994776](https://codeforces.com/contest/1399/submission/88994776)
 ![](https://img.shields.io/badge/-Accepted-brightgreen)
 * [C - 89020550](https://codeforces.com/contest/1399/submission/89020550)
