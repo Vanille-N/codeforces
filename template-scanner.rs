@@ -24,3 +24,15 @@ impl Scanner {
         }
     }
 }
+trait AtomicScannable: std::str::FromStr {}
+impl AtomicScannable for u64 {}
+impl AtomicScannable for i64 {}
+impl AtomicScannable for f64 {}
+impl AtomicScannable for usize {}
+impl AtomicScannable for isize {}
+impl AtomicScannable for String {}
+impl<T: AtomicScannable> Scan<T> for Scanner {
+    fn item(&mut self) -> T {
+        self.atomic_scan()
+    }
+}
