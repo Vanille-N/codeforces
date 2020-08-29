@@ -49,3 +49,31 @@ impl<T, U, V> Scan<(T, U, V)> for Scanner where Scanner: Scan<T> + Scan<U> + Sca
         (self.item(), self.item(), self.item())
     }
 }
+trait ScanVec<T> {
+    fn vec(&mut self, n: usize) -> Vec<T>;
+}
+impl<T> ScanVec<T> for Scanner where Scanner: Scan<T> {
+    fn vec(&mut self, n: usize) -> Vec<T> {
+        (0..n).map(|_| self.item()).collect()
+    }
+}
+impl ScanVec<bool> for Scanner {
+    fn vec(&mut self, n: usize) -> Vec<bool> {
+        let s: String = self.item();
+        let v: Vec<bool> = s.chars().map(|c| c == '1').collect();
+        if v.len() != n {
+            panic!("Wrong length for Vec<bool>: got {}, expected {}", v.len(), n);
+        }
+        v
+    }
+}
+impl ScanVec<char> for Scanner {
+    fn vec(&mut self, n: usize) -> Vec<char> {
+        let s: String = self.item();
+        let v: Vec<char> = s.chars().collect();
+        if v.len() != n {
+            panic!("Wrong length for Vec<char>: got {}, expected {}", v.len(), n);
+        }
+        v
+    }
+}
