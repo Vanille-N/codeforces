@@ -48,7 +48,11 @@ for cnt,id in enumerate(participations):
                 ))
     report += "\n## Submissions\n"
     for sub in submissions:
-        report += submission_template
+        report += submission_template.format(
+            problem=sub["problem"],
+            ident=sub["id"],
+            num=num
+            )
 
     print(report)
     print("----------------")
