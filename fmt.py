@@ -12,7 +12,7 @@ for cnt,id in enumerate(participations):
         exec(open("{}/.data.py".format(id)).read())
     except FileNotFoundError:
         break
-    print("<<<", id, ">>>")
+    print("Reading data for contest", id)
     prev_rating = next_rating
     next_rating += rating_change
     prev_title, prev_color = find_title(prev_rating)
@@ -47,6 +47,7 @@ for cnt,id in enumerate(participations):
                 penalty_template.format(penalty=sol["penalty"]) if educ
                 else points_template.format(points=sol["points"][0], maxi=sol["points"][1])
                 ))
+    print("    ", len(solutions), "problems solved")
     report += "\n## Submissions\n"
     for sub in submissions:
         report += submission_template.format(
@@ -58,6 +59,7 @@ for cnt,id in enumerate(participations):
                 color=sub["status"][1],
                 )
             )
+    print("    ", len(submissions), "files submitted")
 
     with open(file_template.format(id=id), 'w') as f:
         f.write(report)
