@@ -29,3 +29,27 @@ solutions = [
         "points": (1036,1750),
     }
 ]
+
+submissions = [
+    {
+        "problem": "A",
+        "id": 91358774,
+        "status": accepted(),
+    }, {
+        "problem": "B",
+        "id": 91372857,
+        "status": accepted(),
+    }, {
+        "problem": "C",
+        "id": 91393534,
+        "status": wrong_ans(2, pre=True),
+    }, {
+        "problem": "C",
+        "id": 91398554,
+        "status": accepted(),
+    }, {
+        "problem": "D",
+        "id": 91410838,
+        "status": accepted(),
+    }
+]
