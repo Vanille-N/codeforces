@@ -3,9 +3,6 @@ fn main() {
     unimplemented!()
 }
 
-
-
-
 // TEMPLATE
 
 #[derive(Default)]
