@@ -69,3 +69,8 @@ solution_template = """* [{problem} - {name}](https://codeforces.com/contest/{nu
 submission_template = """* [{problem} - {ident}](https://codeforces.com/contest/{num}/submission/{ident})
 ![]({verdict})
 """
+
+graph_template = """
+![]({src})"""
+
+graph_fname = ".graph.png"
