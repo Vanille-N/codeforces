@@ -7,6 +7,9 @@ prev_rating = 0
 next_rating = 0
 main = main_template
 
+time_data = []
+rating_data = []
+
 for cnt, ref in enumerate(participations):
     num, id = ref
     try:
@@ -18,6 +21,8 @@ for cnt, ref in enumerate(participations):
     next_rating += rating_change
     prev_title, prev_color = find_title(prev_rating)
     next_title, next_color = find_title(next_rating)
+    rating_data.append(next_rating)
+    time_data.append(date)
     report = report_template.format(
         contest_name=contest_name,
         num=num,
@@ -74,3 +79,5 @@ main = main.format(
     )
 with open(main_file, 'w') as f:
     f.write(main)
+
+print(time_data, rating_data)
