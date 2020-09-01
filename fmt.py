@@ -93,6 +93,3 @@ with open(main_file, 'w') as f:
     f.write(main)
 
 plt.savefig(graph_fname)
-
-
-plt.show()
