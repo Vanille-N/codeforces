@@ -1,5 +1,5 @@
 contest_name = "Educational Codeforces Round 94 (Div. 2)"
-num = 1400
+date = (2020,8,25)
 rank = 1766
 educ = True
 
