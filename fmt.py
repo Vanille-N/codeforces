@@ -83,6 +83,9 @@ import datetime
 import matplotlib.pyplot as plt
 
 time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
+
+plt.plot(time_data, rating_data)
+plt.gcf().autofmt_xdate()
 with open(main_file, 'w') as f:
     f.write(main)
 
