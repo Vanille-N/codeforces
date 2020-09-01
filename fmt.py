@@ -7,7 +7,8 @@ prev_rating = 0
 next_rating = 0
 main = main_template
 
-for cnt,id in enumerate(participations):
+for cnt, ref in enumerate(participations):
+    num, id = ref
     try:
         exec(open("{}/.data.py".format(id)).read())
     except FileNotFoundError:
