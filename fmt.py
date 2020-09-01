@@ -92,4 +92,7 @@ main += graph_template.format(src=graph_fname)
 with open(main_file, 'w') as f:
     f.write(main)
 
-print(time_data, rating_data)
+plt.savefig(graph_fname)
+
+
+plt.show()
