@@ -77,6 +77,12 @@ main = main.format(
     current_badge=badge_template.format(title=current_title, color=current_color, handle=handle),
     profile=profile.format(handle=handle),
     )
+
+import time
+import datetime
+import matplotlib.pyplot as plt
+
+time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 with open(main_file, 'w') as f:
     f.write(main)
 
