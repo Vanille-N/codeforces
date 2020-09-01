@@ -71,6 +71,7 @@ submission_template = """* [{problem} - {ident}](https://codeforces.com/contest/
 """
 
 graph_template = """
-![]({src})"""
+![]({src})
+"""
 
 graph_fname = ".graph.png"
