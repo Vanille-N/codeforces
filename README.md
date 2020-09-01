@@ -12,3 +12,5 @@ All participations done in Rust.
 * [Codeforces Round #665 (Div. 2)](https://codeforces.com/contest/1401) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen)
 * [Educational Codeforces Round 94 (Div. 2)](https://codeforces.com/contest/1400) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen)
 * [Codeforces Round #666 (Div. 2)](https://codeforces.com/contest/1397) as ![](https://img.shields.io/badge/Specialist-Zwgtwz-cyan)
+
+![](.graph.png)
