@@ -52,17 +52,9 @@ titles = [
 ]
 
 def find_title(rating):
-    if rating == 0: return ("Unrated", "white")
-    elif rating <= 1200: return ("Newbie", "lightgrey")
-    elif rating <= 1400: return ("Pupil", "lightgreen")
-    elif rating <= 1600: return ("Specialist", "cyan")
-    elif rating <= 1900: return ("Expert", "blue")
-    elif rating <= 2100: return ("Candidate%20Master", "pink")
-    elif rating <= 2300: return ("Master", "gold")
-    elif rating <= 2400: return ("International%20Master", "yellow")
-    elif rating <= 2600: return ("Grandmaster", "red")
-    elif rating <= 3000: return ("International%20Grandmaster", "crimson")
-    else: return ("Legendary%20Grandmaster", crimson)
+    for (r, t, c) in titles:
+        if rating <= r:
+            return (t, c)
 
 report_template = """# [{contest_name}](https://codeforces.com/contest/{num})
 
