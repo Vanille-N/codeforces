@@ -79,19 +79,23 @@ main = main.format(
     )
 
 import time
-import datetime
+from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
-time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
+time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 
 plt.plot(time_data, rating_data, marker="o", color='black')
 plt.gcf().autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
 
+total_delta = time_data[-1] - time_data[0]
+time_margin = total_delta * 0.1
+extended_time = [time_data[0] - time_margin, time_data[-1] + time_margin]
+
 for i in range(1, len(titles)):
     if titles[i-1][0] < max_rating:
-        plt.fill_between(time_data, max(titles[i-1][0], min_rating), min(titles[i][0], max_rating), color=titles[i][2])
+        plt.fill_between(extended_time, max(titles[i-1][0], min_rating), min(titles[i][0], max_rating), color=titles[i][2])
 
 main += graph_template.format(src=graph_fname)
 
