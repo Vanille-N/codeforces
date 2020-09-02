@@ -86,7 +86,7 @@ time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_dat
 
 plt.plot(time_data, rating_data, marker="o", color='black')
 plt.gcf().autofmt_xdate()
-max_rating = max(rating_data)
+max_rating = max(rating_data) * 1.3
 
 for i in range(1, len(titles)):
     if titles[i-1][0] < max_rating:
