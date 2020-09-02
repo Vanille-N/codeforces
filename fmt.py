@@ -86,9 +86,11 @@ time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_dat
 
 plt.plot(time_data, rating_data, marker="o", color='black')
 plt.gcf().autofmt_xdate()
+max_rating = max(rating_data)
 
 for i in range(1, len(titles)):
-    plt.fill_between(time_data, titles[i-1][0], titles[i][0], color='gold')
+    if titles[i-1][0] < max_rating:
+        plt.fill_between(time_data, titles[i-1][0], min(titles[i][0], max_rating), color='gold')
 
 main += graph_template.format(src=graph_fname)
 
