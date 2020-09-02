@@ -43,12 +43,12 @@ titles = [
     (1400, "Pupil", "lightgreen"),
     (1600, "Specialist", "cyan"),
     (1900, "Expert", "blue"),
-    (2100, "Candidate%20Master", "pink"),
+    (2100, "Candidate%20Master", "hotpink"),
     (2300, "Master", "gold"),
     (2400, "International%20Master", "yellow"),
     (2600, "Grandmaster", "red"),
     (3000, "International%20Grandmaster", "crimson"),
-    (5000, "Legendary%20Grandmaster", "crimson"),
+    (5000, "Legendary%20Grandmaster", "darkred"),
 ]
 
 def find_title(rating):
