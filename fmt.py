@@ -90,7 +90,7 @@ max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
 
 total_delta = time_data[-1] - time_data[0]
-time_margin = total_delta * 0.1
+time_margin = total_delta * 0.05
 extended_time = [time_data[0] - time_margin, time_data[-1] + time_margin]
 
 for i in range(1, len(titles)):
