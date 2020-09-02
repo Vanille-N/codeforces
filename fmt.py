@@ -84,8 +84,9 @@ import matplotlib.pyplot as plt
 
 time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 
-plt.plot(time_data, rating_data, marker="o")
+plt.plot(time_data, rating_data, marker="o", color='black')
 plt.gcf().autofmt_xdate()
+plt.fill_between(time_data, 0, 1000, color='gold')
 
 main += graph_template.format(src=graph_fname)
 
