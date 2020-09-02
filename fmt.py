@@ -84,7 +84,7 @@ import matplotlib.pyplot as plt
 
 time_data = [datetime.datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 
-plt.plot(time_data, rating_data)
+plt.plot(time_data, rating_data, marker="o")
 plt.gcf().autofmt_xdate()
 
 main += graph_template.format(src=graph_fname)
