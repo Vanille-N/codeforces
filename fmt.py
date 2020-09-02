@@ -90,7 +90,7 @@ max_rating = max(rating_data) * 1.3
 
 for i in range(1, len(titles)):
     if titles[i-1][0] < max_rating:
-        plt.fill_between(time_data, titles[i-1][0], min(titles[i][0], max_rating), color='gold')
+        plt.fill_between(time_data, titles[i-1][0], min(titles[i][0], max_rating), color=titles[i][2])
 
 main += graph_template.format(src=graph_fname)
 
