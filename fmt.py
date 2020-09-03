@@ -47,7 +47,7 @@ for cnt, ref in enumerate(participations):
             gain_template.format(gain=rating_change) if rating_change > 0
             else loss_template.format(loss=abs(rating_change))
             ))
-    report += "\n## Solutions\n| Problem | Time | Points |\n| --- | --- | --- |\n"
+    report += solution_banner
     for sol in solutions:
         report += solution_template.format(
             problem=sol["problem"],

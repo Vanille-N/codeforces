@@ -67,7 +67,13 @@ report_template = """# [{contest_name}](https://codeforces.com/contest/{num})
 ![]({rating_change})
 """
 
-solution_template = """| [{problem} - {name}](https://codeforces.com/contest/{num}/problem/{problem}) | ![]({time}) | ![]({score}) |
+solution_banner = """
+## Solutions
+| ID | Title | Time | Points |
+| --- | --- | --- | --- |
+"""
+
+solution_template = """| [{problem}](https://codeforces.com/contest/{num}/problem/{problem}) | {name} | ![]({time}) | ![]({score}) |
 """
 
 submission_template = """* [{problem} - {ident}](https://codeforces.com/contest/{num}/submission/{ident})
