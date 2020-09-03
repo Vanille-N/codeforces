@@ -11,10 +11,10 @@
 ## Solutions
 | ID | Title | Time | Penalty |
 | --- | --- | --- | --- |
-| [A](https://codeforces.com/contest/1399/problem/A) | Remove Smallest | ![](https://img.shields.io/badge/Time-00%3A12-yellowgreen) | ![](https://img.shields.io/badge/-12-red) |
-| [B](https://codeforces.com/contest/1399/problem/B) | Gifts Fixing | ![](https://img.shields.io/badge/Time-00%3A31-yellowgreen) | ![](https://img.shields.io/badge/-31-red) |
-| [C](https://codeforces.com/contest/1399/problem/C) | Boats Competition | ![](https://img.shields.io/badge/Time-01%3A07-yellowgreen) | ![](https://img.shields.io/badge/-67-red) |
-| [D](https://codeforces.com/contest/1399/problem/D) | Binary String to Subsequences | ![](https://img.shields.io/badge/Time-01%3A25-yellowgreen) | ![](https://img.shields.io/badge/-85-red) |
+| [A](https://codeforces.com/contest/1399/problem/A) | Remove Smallest | ![](https://img.shields.io/badge/-00%3A12-yellowgreen) | ![](https://img.shields.io/badge/-12-red) |
+| [B](https://codeforces.com/contest/1399/problem/B) | Gifts Fixing | ![](https://img.shields.io/badge/-00%3A31-yellowgreen) | ![](https://img.shields.io/badge/-31-red) |
+| [C](https://codeforces.com/contest/1399/problem/C) | Boats Competition | ![](https://img.shields.io/badge/-01%3A07-yellowgreen) | ![](https://img.shields.io/badge/-67-red) |
+| [D](https://codeforces.com/contest/1399/problem/D) | Binary String to Subsequences | ![](https://img.shields.io/badge/-01%3A25-yellowgreen) | ![](https://img.shields.io/badge/-85-red) |
 
 ## Submissions
 * [A - 88973817](https://codeforces.com/contest/1399/submission/88973817)

@@ -11,9 +11,9 @@
 ## Solutions
 | ID | Title | Time | Points |
 | --- | --- | --- | --- |
-| [A](https://codeforces.com/contest/1391/problem/A) | Suborrays | ![](https://img.shields.io/badge/Time-00%3A15-yellowgreen) | ![](https://img.shields.io/badge/-470%2F500-blue) |
-| [B](https://codeforces.com/contest/1391/problem/B) | Conveyor Belt | ![](https://img.shields.io/badge/Time-00%3A28-yellowgreen) | ![](https://img.shields.io/badge/-666%2F750-blue) |
-| [C](https://codeforces.com/contest/1391/problem/C) | Cyclic Permutations | ![](https://img.shields.io/badge/Time-00%3A57-yellowgreen) | ![](https://img.shields.io/badge/-965%2F1250-blue) |
+| [A](https://codeforces.com/contest/1391/problem/A) | Suborrays | ![](https://img.shields.io/badge/-00%3A15-yellowgreen) | ![](https://img.shields.io/badge/-470%2F500-blue) |
+| [B](https://codeforces.com/contest/1391/problem/B) | Conveyor Belt | ![](https://img.shields.io/badge/-00%3A28-yellowgreen) | ![](https://img.shields.io/badge/-666%2F750-blue) |
+| [C](https://codeforces.com/contest/1391/problem/C) | Cyclic Permutations | ![](https://img.shields.io/badge/-00%3A57-yellowgreen) | ![](https://img.shields.io/badge/-965%2F1250-blue) |
 
 ## Submissions
 * [A - 89423384](https://codeforces.com/contest/1391/submission/89423384)
