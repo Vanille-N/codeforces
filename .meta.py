@@ -69,7 +69,7 @@ report_template = """# [{contest_name}](https://codeforces.com/contest/{num})
 
 solution_banner = """
 ## Solutions
-| ID | Title | Time | Points |
+| ID | Title | Time | {mode} |
 | --- | --- | --- | --- |
 """
 
