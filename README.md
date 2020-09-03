@@ -6,11 +6,17 @@ Handle: [![](https://img.shields.io/badge/Expert-Zwgtwz-blue)](https://codeforce
 
 All participations done in Rust.
 
-* [Codeforces Round #661 (Div. 3)](https://codeforces.com/contest/1399) as ![](https://img.shields.io/badge/Unrated-Zwgtwz-white) ![](https://img.shields.io/badge/-%2B535-green)
-* [Codeforces Round #663 (Div. 2)](https://codeforces.com/contest/1391) as ![](https://img.shields.io/badge/Newbie-Zwgtwz-lightgrey) ![](https://img.shields.io/badge/-%2B388-green)
-* [Global Codeforces Round 10](https://codeforces.com/contest/1392) as ![](https://img.shields.io/badge/Newbie-Zwgtwz-lightgrey) ![](https://img.shields.io/badge/-%2B317-green)
-* [Codeforces Round #665 (Div. 2)](https://codeforces.com/contest/1401) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen) ![](https://img.shields.io/badge/-%2B105-green)
-* [Educational Codeforces Round 94 (Div. 2)](https://codeforces.com/contest/1400) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen) ![](https://img.shields.io/badge/-%2B164-green)
-* [Codeforces Round #666 (Div. 2)](https://codeforces.com/contest/1397) as ![](https://img.shields.io/badge/Specialist-Zwgtwz-cyan) ![](https://img.shields.io/badge/-%2B168-green)
+0.  [Codeforces Round #661 (Div. 3)](https://codeforces.com/contest/1399) as ![](https://img.shields.io/badge/Unrated-Zwgtwz-white) ![](https://img.shields.io/badge/-%2B535-green)
+
+1.  [Codeforces Round #663 (Div. 2)](https://codeforces.com/contest/1391) as ![](https://img.shields.io/badge/Newbie-Zwgtwz-lightgrey) ![](https://img.shields.io/badge/-%2B388-green)
+
+2.  [Global Codeforces Round 10](https://codeforces.com/contest/1392) as ![](https://img.shields.io/badge/Newbie-Zwgtwz-lightgrey) ![](https://img.shields.io/badge/-%2B317-green)
+
+3.  [Codeforces Round #665 (Div. 2)](https://codeforces.com/contest/1401) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen) ![](https://img.shields.io/badge/-%2B105-green)
+
+4.  [Educational Codeforces Round 94 (Div. 2)](https://codeforces.com/contest/1400) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen) ![](https://img.shields.io/badge/-%2B164-green)
+
+5.  [Codeforces Round #666 (Div. 2)](https://codeforces.com/contest/1397) as ![](https://img.shields.io/badge/Specialist-Zwgtwz-cyan) ![](https://img.shields.io/badge/-%2B168-green)
+
 
 ![](.graph.png)

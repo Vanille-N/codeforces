@@ -39,6 +39,7 @@ for cnt, ref in enumerate(participations):
             else loss_template.format(loss=abs(rating_change))
             ))
     main += main_entry.format(
+        cnt=cnt,
         contest_name=contest_name,
         contest_url=contest_url_template.format(num=num),
         badge=badge_template.format(title=prev_title, color=prev_color, handle=handle),
