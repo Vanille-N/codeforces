@@ -9,15 +9,11 @@
 ![](https://img.shields.io/badge/-%2B105-green)
 
 ## Solutions
-* [A - Distance and Axis](https://codeforces.com/contest/1401/problem/A)
-![](https://img.shields.io/badge/Time-00%3A40-yellowgreen)
-![](https://img.shields.io/badge/Points-420%2F500-blue)
-* [B - Ternary Sequence](https://codeforces.com/contest/1401/problem/B)
-![](https://img.shields.io/badge/Time-01%3A02-yellowgreen)
-![](https://img.shields.io/badge/Points-752%2F1000-blue)
-* [C - Mere Array](https://codeforces.com/contest/1401/problem/C)
-![](https://img.shields.io/badge/Time-01%3A30-yellowgreen)
-![](https://img.shields.io/badge/Points-960%2F1500-blue)
+| ID | Title | Time | Points |
+| --- | --- | --- | --- |
+| [A](https://codeforces.com/contest/1401/problem/A) | Distance and Axis | ![](https://img.shields.io/badge/Time-00%3A40-yellowgreen) | ![](https://img.shields.io/badge/-420%2F500-blue) |
+| [B](https://codeforces.com/contest/1401/problem/B) | Ternary Sequence | ![](https://img.shields.io/badge/Time-01%3A02-yellowgreen) | ![](https://img.shields.io/badge/-752%2F1000-blue) |
+| [C](https://codeforces.com/contest/1401/problem/C) | Mere Array | ![](https://img.shields.io/badge/Time-01%3A30-yellowgreen) | ![](https://img.shields.io/badge/-960%2F1500-blue) |
 
 ## Submissions
 * [A - 90603978](https://codeforces.com/contest/1401/submission/90603978)

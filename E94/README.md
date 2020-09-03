@@ -9,15 +9,11 @@
 ![](https://img.shields.io/badge/-%2B164-green)
 
 ## Solutions
-* [A - String Similarity](https://codeforces.com/contest/1400/problem/A)
-![](https://img.shields.io/badge/Time-00%3A10-yellowgreen)
-![](https://img.shields.io/badge/Penalty-10-red)
-* [B - RPG Protagonist](https://codeforces.com/contest/1400/problem/B)
-![](https://img.shields.io/badge/Time-00%3A39-yellowgreen)
-![](https://img.shields.io/badge/Penalty-49-red)
-* [C - Binary String Reconstruction](https://codeforces.com/contest/1400/problem/C)
-![](https://img.shields.io/badge/Time-01%3A14-yellowgreen)
-![](https://img.shields.io/badge/Penalty-84-red)
+| ID | Title | Time | Penalty |
+| --- | --- | --- | --- |
+| [A](https://codeforces.com/contest/1400/problem/A) | String Similarity | ![](https://img.shields.io/badge/Time-00%3A10-yellowgreen) | ![](https://img.shields.io/badge/-10-red) |
+| [B](https://codeforces.com/contest/1400/problem/B) | RPG Protagonist | ![](https://img.shields.io/badge/Time-00%3A39-yellowgreen) | ![](https://img.shields.io/badge/-49-red) |
+| [C](https://codeforces.com/contest/1400/problem/C) | Binary String Reconstruction | ![](https://img.shields.io/badge/Time-01%3A14-yellowgreen) | ![](https://img.shields.io/badge/-84-red) |
 
 ## Submissions
 * [A - 90918258](https://codeforces.com/contest/1400/submission/90918258)

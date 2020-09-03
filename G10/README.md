@@ -9,18 +9,12 @@
 ![](https://img.shields.io/badge/-%2B317-green)
 
 ## Solutions
-* [A - Omkar and Password](https://codeforces.com/contest/1392/problem/A)
-![](https://img.shields.io/badge/Time-00%3A12-yellowgreen)
-![](https://img.shields.io/badge/Points-484%2F500-blue)
-* [B - Omkar and Infinity Clock](https://codeforces.com/contest/1392/problem/B)
-![](https://img.shields.io/badge/Time-00%3A31-yellowgreen)
-![](https://img.shields.io/badge/Points-688%2F750-blue)
-* [C - Omkar and Waterslide](https://codeforces.com/contest/1392/problem/C)
-![](https://img.shields.io/badge/Time-00%3A41-yellowgreen)
-![](https://img.shields.io/badge/Points-891%2F1000-blue)
-* [D - Omkar and Bed Wars](https://codeforces.com/contest/1392/problem/D)
-![](https://img.shields.io/badge/Time-01%3A58-yellowgreen)
-![](https://img.shields.io/badge/Points-878%2F1500-blue)
+| ID | Title | Time | Points |
+| --- | --- | --- | --- |
+| [A](https://codeforces.com/contest/1392/problem/A) | Omkar and Password | ![](https://img.shields.io/badge/Time-00%3A12-yellowgreen) | ![](https://img.shields.io/badge/-484%2F500-blue) |
+| [B](https://codeforces.com/contest/1392/problem/B) | Omkar and Infinity Clock | ![](https://img.shields.io/badge/Time-00%3A31-yellowgreen) | ![](https://img.shields.io/badge/-688%2F750-blue) |
+| [C](https://codeforces.com/contest/1392/problem/C) | Omkar and Waterslide | ![](https://img.shields.io/badge/Time-00%3A41-yellowgreen) | ![](https://img.shields.io/badge/-891%2F1000-blue) |
+| [D](https://codeforces.com/contest/1392/problem/D) | Omkar and Bed Wars | ![](https://img.shields.io/badge/Time-01%3A58-yellowgreen) | ![](https://img.shields.io/badge/-878%2F1500-blue) |
 
 ## Submissions
 * [A - 90099352](https://codeforces.com/contest/1392/submission/90099352)
