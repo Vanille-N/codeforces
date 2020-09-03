@@ -14,7 +14,7 @@ All participations done in Rust.
 
 """
 
-main_entry = "* [{contest_name}]({contest_url}) as ![]({badge})\n"
+main_entry = "* [{contest_name}]({contest_url}) as ![]({badge}) ![]({rating_change})\n"
 
 contest_url_template = web + "/contest/{num}"
 
