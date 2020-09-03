@@ -29,8 +29,8 @@ for cnt, ref in enumerate(participations):
         participation_badge=count_template.format(number=cnt+1),
         rank_badge=rank_template.format(rank=rank),
         score=(
-            penalty_template.format(penalty=penalty) if educ
-            else score_template.format(points=points)
+            tot_penalty_template.format(penalty=penalty) if educ
+            else tot_points_template.format(points=points)
             ),
         prev_rating=rating_template.format(title=prev_title, rating=prev_rating, color=prev_color),
         next_rating=rating_template.format(title=next_title, rating=next_rating, color=next_color),
@@ -79,7 +79,11 @@ current_rating = next_rating
 current_title, current_color = find_title(current_rating)
 main = main.format(
     web=web,
-    current_badge=badge_template.format(title=current_title, color=current_color, handle=handle),
+    current_badge=badge_template.format(
+        title=current_title,
+        color=current_color,
+        handle=handle
+        ),
     profile=profile.format(handle=handle),
     )
 
