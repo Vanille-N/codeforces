@@ -41,7 +41,11 @@ for cnt, ref in enumerate(participations):
     main += main_entry.format(
         contest_name=contest_name,
         contest_url=contest_url_template.format(num=num),
-        badge=badge_template.format(title=prev_title, color=prev_color, handle=handle))
+        badge=badge_template.format(title=prev_title, color=prev_color, handle=handle),
+        rating_change=(
+            gain_template.format(gain=rating_change) if rating_change > 0
+            else loss_template.format(loss=abs(rating_change))
+            ))
     report += "\n## Solutions\n"
     for sol in solutions:
         report += solution_template.format(
