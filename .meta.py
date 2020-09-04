@@ -85,4 +85,4 @@ graph_template = """
 ![]({src})
 """
 
-graph_fname = ".graph.png"
+graph_fname = ".graph.svg"
