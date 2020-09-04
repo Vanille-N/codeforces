@@ -91,10 +91,12 @@ import time
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
+fig, ax = plt.subplots()
+
 time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 
-plt.plot(time_data, rating_data, marker="o", color='black', alpha=1)
-plt.grid(color='black', linestyle='--', linewidth=0.5)
+ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
+ax.grid(color='black', linestyle='--', linewidth=0.5)
 plt.gcf().autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
@@ -105,8 +107,7 @@ extended_time = [time_data[0] - time_margin, time_data[-1] + time_margin]
 
 for i in range(1, len(titles)):
     if titles[i-1][0] < max_rating:
-        plt.fill_between(
-            extended_time,
+        ax.axhspan(
             max(titles[i-1][0], min_rating),
             min(titles[i][0], max_rating),
             color=titles[i][2],
@@ -118,4 +119,5 @@ main += graph_template.format(src=graph_fname)
 with open(main_file, 'w') as f:
     f.write(main)
 
-plt.savefig(graph_fname)
+#plt.savefig(graph_fname)
+plt.show()
