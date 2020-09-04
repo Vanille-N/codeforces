@@ -115,6 +115,8 @@ for i in range(1, len(titles)):
             alpha=0.7
             )
 
+ax.set_ylim((min_rating, max_rating))
+
 main += graph_template.format(src=graph_fname)
 
 with open(main_file, 'w') as f:
