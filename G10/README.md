@@ -19,11 +19,11 @@
 ## Submissions
 | Problem | ID | Verdict |
 | --- | --- | --- |
-| A | [90099352](https://codeforces.com/contest/1392/submission/90099352) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| B | [90114207](https://codeforces.com/contest/1392/submission/90114207) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| C | [90120835](https://codeforces.com/contest/1392/submission/90120835) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| D | [90135792](https://codeforces.com/contest/1392/submission/90135792) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
-| D | [90147918](https://codeforces.com/contest/1392/submission/90147918) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
-| D | [90149075](https://codeforces.com/contest/1392/submission/90149075) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
-| D | [90151859](https://codeforces.com/contest/1392/submission/90151859) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%201-yellow) |
-| D | [90152128](https://codeforces.com/contest/1392/submission/90152128) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [A](https://codeforces.com/contest/1392/problem/A) | [90099352](https://codeforces.com/contest/1392/submission/90099352) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [B](https://codeforces.com/contest/1392/problem/B) | [90114207](https://codeforces.com/contest/1392/submission/90114207) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [C](https://codeforces.com/contest/1392/problem/C) | [90120835](https://codeforces.com/contest/1392/submission/90120835) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [D](https://codeforces.com/contest/1392/problem/D) | [90135792](https://codeforces.com/contest/1392/submission/90135792) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
+| [D](https://codeforces.com/contest/1392/problem/D) | [90147918](https://codeforces.com/contest/1392/submission/90147918) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
+| [D](https://codeforces.com/contest/1392/problem/D) | [90149075](https://codeforces.com/contest/1392/submission/90149075) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
+| [D](https://codeforces.com/contest/1392/problem/D) | [90151859](https://codeforces.com/contest/1392/submission/90151859) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%201-yellow) |
+| [D](https://codeforces.com/contest/1392/problem/D) | [90152128](https://codeforces.com/contest/1392/submission/90152128) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |

@@ -18,6 +18,6 @@
 ## Submissions
 | Problem | ID | Verdict |
 | --- | --- | --- |
-| A | [90603978](https://codeforces.com/contest/1401/submission/90603978) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| B | [90588552](https://codeforces.com/contest/1401/submission/90588552) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| C | [90572245](https://codeforces.com/contest/1401/submission/90572245) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [A](https://codeforces.com/contest/1401/problem/A) | [90603978](https://codeforces.com/contest/1401/submission/90603978) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [B](https://codeforces.com/contest/1401/problem/B) | [90588552](https://codeforces.com/contest/1401/submission/90588552) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [C](https://codeforces.com/contest/1401/problem/C) | [90572245](https://codeforces.com/contest/1401/submission/90572245) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |

@@ -19,8 +19,8 @@
 ## Submissions
 | Problem | ID | Verdict |
 | --- | --- | --- |
-| A | [91358774](https://codeforces.com/contest/1397/submission/91358774) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| B | [91372857](https://codeforces.com/contest/1397/submission/91372857) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| C | [91393534](https://codeforces.com/contest/1397/submission/91393534) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
-| C | [91398554](https://codeforces.com/contest/1397/submission/91398554) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| D | [91410838](https://codeforces.com/contest/1397/submission/91410838) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [A](https://codeforces.com/contest/1397/problem/A) | [91358774](https://codeforces.com/contest/1397/submission/91358774) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [B](https://codeforces.com/contest/1397/problem/B) | [91372857](https://codeforces.com/contest/1397/submission/91372857) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [C](https://codeforces.com/contest/1397/problem/C) | [91393534](https://codeforces.com/contest/1397/submission/91393534) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%202-red) |
+| [C](https://codeforces.com/contest/1397/problem/C) | [91398554](https://codeforces.com/contest/1397/submission/91398554) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [D](https://codeforces.com/contest/1397/problem/D) | [91410838](https://codeforces.com/contest/1397/submission/91410838) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |

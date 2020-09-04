@@ -18,7 +18,7 @@
 ## Submissions
 | Problem | ID | Verdict |
 | --- | --- | --- |
-| A | [89423384](https://codeforces.com/contest/1391/submission/89423384) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| B | [89430043](https://codeforces.com/contest/1391/submission/89430043) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
-| C | [89439136](https://codeforces.com/contest/1391/submission/89439136) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%201-yellow) |
-| C | [89439267](https://codeforces.com/contest/1391/submission/89439267) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [A](https://codeforces.com/contest/1391/problem/A) | [89423384](https://codeforces.com/contest/1391/submission/89423384) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [B](https://codeforces.com/contest/1391/problem/B) | [89430043](https://codeforces.com/contest/1391/submission/89430043) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| [C](https://codeforces.com/contest/1391/problem/C) | [89439136](https://codeforces.com/contest/1391/submission/89439136) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%201-yellow) |
+| [C](https://codeforces.com/contest/1391/problem/C) | [89439267](https://codeforces.com/contest/1391/submission/89439267) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
