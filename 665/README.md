@@ -16,9 +16,8 @@
 | [C](https://codeforces.com/contest/1401/problem/C) | Mere Array | ![](https://img.shields.io/badge/-01%3A30-yellowgreen) | ![](https://img.shields.io/badge/-960%2F1500-blue) |
 
 ## Submissions
-* [A - 90603978](https://codeforces.com/contest/1401/submission/90603978)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [B - 90588552](https://codeforces.com/contest/1401/submission/90588552)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [C - 90572245](https://codeforces.com/contest/1401/submission/90572245)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
+| Problem | ID | Verdict |
+| --- | --- | --- |
+| A | [90603978](https://codeforces.com/contest/1401/submission/90603978) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| B | [90588552](https://codeforces.com/contest/1401/submission/90588552) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| C | [90572245](https://codeforces.com/contest/1401/submission/90572245) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |

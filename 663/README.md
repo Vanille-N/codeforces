@@ -16,11 +16,9 @@
 | [C](https://codeforces.com/contest/1391/problem/C) | Cyclic Permutations | ![](https://img.shields.io/badge/-00%3A57-yellowgreen) | ![](https://img.shields.io/badge/-965%2F1250-blue) |
 
 ## Submissions
-* [A - 89423384](https://codeforces.com/contest/1391/submission/89423384)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [B - 89430043](https://codeforces.com/contest/1391/submission/89430043)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [C - 89439136](https://codeforces.com/contest/1391/submission/89439136)
-![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%201-yellow)
-* [C - 89439267](https://codeforces.com/contest/1391/submission/89439267)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
+| Problem | ID | Verdict |
+| --- | --- | --- |
+| A | [89423384](https://codeforces.com/contest/1391/submission/89423384) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| B | [89430043](https://codeforces.com/contest/1391/submission/89430043) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| C | [89439136](https://codeforces.com/contest/1391/submission/89439136) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20pretest%201-yellow) |
+| C | [89439267](https://codeforces.com/contest/1391/submission/89439267) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |

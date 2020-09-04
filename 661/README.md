@@ -17,13 +17,10 @@
 | [D](https://codeforces.com/contest/1399/problem/D) | Binary String to Subsequences | ![](https://img.shields.io/badge/-01%3A25-yellowgreen) | ![](https://img.shields.io/badge/-85-red) |
 
 ## Submissions
-* [A - 88973817](https://codeforces.com/contest/1399/submission/88973817)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [B - 88989375](https://codeforces.com/contest/1399/submission/88989375)
-![](https://img.shields.io/badge/-Wrong%20answer%20on%20test%201-yellow)
-* [B - 88994776](https://codeforces.com/contest/1399/submission/88994776)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [C - 89020550](https://codeforces.com/contest/1399/submission/89020550)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
-* [D - 89030954](https://codeforces.com/contest/1399/submission/89030954)
-![](https://img.shields.io/badge/-Accepted-brightgreen)
+| Problem | ID | Verdict |
+| --- | --- | --- |
+| A | [88973817](https://codeforces.com/contest/1399/submission/88973817) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| B | [88989375](https://codeforces.com/contest/1399/submission/88989375) | ![](https://img.shields.io/badge/-Wrong%20answer%20on%20test%201-yellow) |
+| B | [88994776](https://codeforces.com/contest/1399/submission/88994776) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| C | [89020550](https://codeforces.com/contest/1399/submission/89020550) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
+| D | [89030954](https://codeforces.com/contest/1399/submission/89030954) | ![](https://img.shields.io/badge/-Accepted-brightgreen) |
