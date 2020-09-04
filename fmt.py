@@ -104,7 +104,13 @@ extended_time = [time_data[0] - time_margin, time_data[-1] + time_margin]
 
 for i in range(1, len(titles)):
     if titles[i-1][0] < max_rating:
-        plt.fill_between(extended_time, max(titles[i-1][0], min_rating), min(titles[i][0], max_rating), color=titles[i][2])
+        plt.fill_between(
+            extended_time,
+            max(titles[i-1][0], min_rating),
+            min(titles[i][0], max_rating),
+            color=titles[i][2],
+            alpha=0.5
+            )
 
 main += graph_template.format(src=graph_fname)
 
