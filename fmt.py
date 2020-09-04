@@ -59,7 +59,7 @@ for cnt, ref in enumerate(participations):
                 else points_template.format(points=sol["points"][0], maxi=sol["points"][1])
                 ))
     print("    ", len(solutions), "problems solved")
-    report += "\n## Submissions\n"
+    report += submission_banner
     for sub in submissions:
         report += submission_template.format(
             problem=sub["problem"],

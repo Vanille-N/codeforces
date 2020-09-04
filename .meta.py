@@ -79,8 +79,13 @@ solution_banner = """
 solution_template = """| [{problem}](https://codeforces.com/contest/{num}/problem/{problem}) | {name} | ![]({time}) | ![]({score}) |
 """
 
-submission_template = """* [{problem} - {ident}](https://codeforces.com/contest/{num}/submission/{ident})
-![]({verdict})
+submission_banner = """
+## Submissions
+| Problem | ID | Verdict |
+| --- | --- | --- |
+"""
+
+submission_template = """| {problem} | [{ident}](https://codeforces.com/contest/{num}/submission/{ident}) | ![]({verdict}) |
 """
 
 graph_template = """
