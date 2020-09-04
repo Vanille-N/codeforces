@@ -93,7 +93,8 @@ import matplotlib.pyplot as plt
 
 time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 
-plt.plot(time_data, rating_data, marker="o", color='black')
+plt.plot(time_data, rating_data, marker="o", color='black', alpha=1)
+plt.grid(color='black', linestyle='--', linewidth=0.5)
 plt.gcf().autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
