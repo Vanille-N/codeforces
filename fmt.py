@@ -97,6 +97,7 @@ time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 
 ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
 ax.grid(color='black', linestyle='--', linewidth=0.5)
+ax.set_yticks(yticks)
 plt.gcf().autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
@@ -111,7 +112,7 @@ for i in range(1, len(titles)):
             max(titles[i-1][0], min_rating),
             min(titles[i][0], max_rating),
             color=titles[i][2],
-            alpha=0.5
+            alpha=0.7
             )
 
 main += graph_template.format(src=graph_fname)
