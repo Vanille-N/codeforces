@@ -112,7 +112,7 @@ for i in range(1, len(titles)):
             max(titles[i-1][0], min_rating),
             min(titles[i][0], max_rating),
             color=titles[i][2],
-            alpha=0.7
+            alpha=0.5
             )
 
 ax.set_ylim((min_rating, max_rating))
@@ -122,5 +122,5 @@ main += graph_template.format(src=graph_fname)
 with open(main_file, 'w') as f:
     f.write(main)
 
-#plt.savefig(graph_fname)
-plt.show()
+plt.savefig(graph_fname)
+# plt.show()
