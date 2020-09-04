@@ -98,7 +98,7 @@ time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
 ax.grid(color='black', linestyle='--', linewidth=0.5)
 ax.set_yticks(yticks)
-plt.gcf().autofmt_xdate()
+fig.autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
 
