@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-exec(open(".data.py").read())
-exec(open(".meta.py").read())
 class Module:
     def __init__(self, path):
         # exec(open(path).read(), locals())
@@ -12,6 +10,10 @@ class Module:
         for k in d.keys():
             instr = "self.{elem} = d['{elem}']".format(elem=k)
             exec(instr)
+
+meta = Module(".meta.py")
+data = Module(".data.py")
+verdict = Module(".verdict.py")
 
 prev_rating = 0
 next_rating = 0
