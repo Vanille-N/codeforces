@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
 class Module:
-    def __init__(self, path):
+    def __init__(self, path, **kwargs):
         # exec(open(path).read(), locals())
         # print(web)
-        d = {}
+        d = kwargs
         exec(open(path).read(), d)
         d.pop("__builtins__")
         for k in d.keys():
@@ -25,7 +25,7 @@ rating_data = []
 for cnt, ref in enumerate(data.participations):
     num, id = ref
     try:
-        exec(open("{}/.data.py".format(id)).read())
+        contest = Module("{}/.data.py".format(id), verdict=verdict)
     except FileNotFoundError:
         break
     print("Reading data for contest", id)
