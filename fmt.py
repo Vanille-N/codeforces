@@ -2,6 +2,16 @@
 
 exec(open(".data.py").read())
 exec(open(".meta.py").read())
+class Module:
+    def __init__(self, path):
+        # exec(open(path).read(), locals())
+        # print(web)
+        d = {}
+        exec(open(path).read(), d)
+        d.pop("__builtins__")
+        for k in d.keys():
+            instr = "self.{elem} = d['{elem}']".format(elem=k)
+            exec(instr)
 
 prev_rating = 0
 next_rating = 0
