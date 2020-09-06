@@ -30,49 +30,49 @@ for cnt, ref in enumerate(data.participations):
         break
     print("Reading data for contest", id)
     prev_rating = next_rating
-    next_rating += rating_change
+    next_rating += contest.rating_change
     prev_title, prev_color = meta.find_title(prev_rating)
     next_title, next_color = meta.find_title(next_rating)
     rating_data.append(next_rating)
-    time_data.append(date)
+    time_data.append(contest.date)
     report = meta.report_template.format(
-        contest_name=contest_name,
+        contest_name=contest.name,
         num=num,
         participation_badge=meta.count_template.format(number=cnt+1),
-        rank_badge=meta.rank_template.format(rank=rank),
+        rank_badge=meta.rank_template.format(rank=contest.rank),
         score=(
-            meta.tot_penalty_template.format(penalty=penalty) if educ
-            else meta.tot_points_template.format(points=points)
+            meta.tot_penalty_template.format(penalty=contest.penalty) if contest.educ
+            else meta.tot_points_template.format(points=contest.points)
             ),
         prev_rating=meta.rating_template.format(title=prev_title, rating=prev_rating, color=prev_color),
         next_rating=meta.rating_template.format(title=next_title, rating=next_rating, color=next_color),
         rating_change=(
-            meta.gain_template.format(gain=rating_change) if rating_change > 0
-            else meta.loss_template.format(loss=abs(rating_change))
+            meta.gain_template.format(gain=contest.rating_change) if contest.rating_change > 0
+            else meta.loss_template.format(loss=abs(contest.rating_change))
             ))
     main += meta.main_entry.format(
         cnt=cnt+1,
-        contest_name=contest_name,
+        contest_name=contest.name,
         contest_url=meta.contest_url_template.format(num=num),
         badge=meta.badge_template.format(title=prev_title, color=prev_color, handle=data.handle),
         rating_change=(
-            meta.gain_template.format(gain=rating_change) if rating_change > 0
-            else meta.loss_template.format(loss=abs(rating_change))
+            meta.gain_template.format(gain=contest.rating_change) if contest.rating_change > 0
+            else meta.loss_template.format(loss=abs(contest.rating_change))
             ))
-    report += meta.solution_banner.format(mode=("Penalty" if educ else "Points"))
-    for sol in solutions:
+    report += meta.solution_banner.format(mode=("Penalty" if contest.educ else "Points"))
+    for sol in contest.solutions:
         report += meta.solution_template.format(
             problem=sol["problem"],
             name=sol["name"],
             num=num,
             time=meta.time_template.format(hours=sol["time"][0], minutes=sol["time"][1]),
             score=(
-                meta.penalty_template.format(penalty=sol["penalty"]) if educ
+                meta.penalty_template.format(penalty=sol["penalty"]) if contest.educ
                 else meta.points_template.format(points=sol["points"][0], maxi=sol["points"][1])
                 ))
-    print("    ", len(solutions), "problems solved")
+    print("    ", len(contest.solutions), "problems solved")
     report += meta.submission_banner
-    for sub in submissions:
+    for sub in contest.submissions:
         report += meta.submission_template.format(
             problem=sub["problem"],
             ident=sub["id"],
@@ -82,7 +82,7 @@ for cnt, ref in enumerate(data.participations):
                 color=sub["status"][1],
                 )
             )
-    print("    ", len(submissions), "files submitted")
+    print("    ", len(contest.submissions), "files submitted")
 
     with open(meta.file_template.format(id=id), 'w') as f:
         f.write(report)
