@@ -34,22 +34,22 @@ submissions = [
     {
         "problem": "A",
         "id": 88973817,
-        "status": accepted(),
+        "status": verdict.accepted(),
     }, {
         "problem": "B",
         "id": 88989375,
-        "status": wrong_ans(1),
+        "status": verdict.wrong_ans(1),
     }, {
         "problem": "B",
         "id": 88994776,
-        "status": accepted(),
+        "status": verdict.accepted(),
     }, {
         "problem": "C",
         "id": 89020550,
-        "status": accepted(),
+        "status": verdict.accepted(),
     }, {
         "problem": "D",
         "id": 89030954,
-        "status": accepted(),
+        "status": verdict.accepted(),
     }
 ]
