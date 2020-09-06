@@ -1,4 +1,4 @@
-contest_name = "Codeforces Round #663 (Div. 2)"
+name = "Codeforces Round #663 (Div. 2)"
 date = (2020,8,9)
 rank = 2863
 educ = False
