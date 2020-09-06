@@ -18,12 +18,6 @@ main_entry = "{cnt}.  [{contest_name}]({contest_url}) as ![]({badge}) ![]({ratin
 
 contest_url_template = web + "/contest/{num}"
 
-def accepted(): return ("Accepted", "brightgreen")
-def wrong_ans(num, pre=False):
-    return ("Wrong%20answer%20on%20{pre}test%20{num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1 else "red")
-def runtime(num, pre=False):
-    return ("Runtime%20error%20on%20{pre}test%20{num}".format(pre=("pre" if pre else ""), num=num), "yellow" if num == 1  else "red")
-
 shield_base = "https://img.shields.io/badge/"
 badge_template = shield_base + "{title}-{handle}-{color}"
 rating_template = shield_base + "{title}-{rating}-{color}"
