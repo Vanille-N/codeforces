@@ -19,3 +19,27 @@ solutions = [
         "points": (368,1000),
     }
 ]
+
+submissions = [
+    {
+        "problem": "A",
+        "id": 92027985,
+        "status": verdict.accepted(),
+    }, {
+        "problem": "B",
+        "id": 92041100,
+        "status": verdict.wrong_ans(2, pre=True),
+    }, {
+        "problem": "B",
+        "id": 92049064,
+        "status": verdict.wrong_ans(2, pre=True),
+    }, {
+        "problem": "B",
+        "id": 92051345,
+        "status": verdict.wrong_ans(2, pre=True),
+    }, {
+        "problem": "B",
+        "id": 92053603,
+        "status": verdict.wrong_ans(2, pre=True),
+    }, {
+]
