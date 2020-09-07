@@ -42,4 +42,14 @@ submissions = [
         "id": 92053603,
         "status": verdict.wrong_ans(2, pre=True),
     }, {
+        "problem": "B",
+        "lang": ("Python","blue"),
+        "id": 92070259,
+        "status": verdict.wrong_ans(1, pre=True),
+    }, {
+        "problem": "B",
+        "lang": ("Python","blue"),
+        "id": 92070457,
+        "status": verdict.accepted(),
+    }
 ]
