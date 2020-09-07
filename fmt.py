@@ -80,8 +80,17 @@ for cnt, ref in enumerate(data.participations):
             verdict=meta.verdict_template.format(
                 status=sub["status"][0],
                 color=sub["status"][1],
+        if "lang" in sub:
+        else:
+            report += meta.submission_template.format(
+                problem=sub["problem"],
+                ident=sub["id"],
+                num=num,
+                verdict=meta.verdict_template.format(
+                    status=sub["status"][0],
+                    color=sub["status"][1],
+                    )
                 )
-            )
     print("    ", len(contest.submissions), "files submitted")
 
     with open(meta.file_template.format(id=id), 'w') as f:
