@@ -5,3 +5,17 @@ educ = False
 
 points = 856
 rating_change = -133
+
+solutions = [
+    {
+        "problem": "A",
+        "name": "Permutation Forgery",
+        "time": (0,6),
+        "points": (488,500),
+    }, {
+        "problem": "B",
+        "name": "Array Cancellation",
+        "time": (1,48),
+        "points": (368,1000),
+    }
+]
