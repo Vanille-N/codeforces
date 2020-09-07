@@ -82,6 +82,9 @@ submission_banner = """
 submission_template = """| [{problem}](https://codeforces.com/contest/{num}/problem/{problem}) | [{ident}](https://codeforces.com/contest/{num}/submission/{ident}) | ![]({verdict}) |
 """
 
+submission_template_lang = """| [{problem}](https://codeforces.com/contest/{num}/problem/{problem}) ![](https://img.shields.io/badge/-{lang}-{color}) | [{ident}](https://codeforces.com/contest/{num}/submission/{ident}) | ![]({verdict}) |
+"""
+
 graph_template = """
 ![]({src})
 """
