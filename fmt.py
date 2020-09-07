@@ -73,14 +73,19 @@ for cnt, ref in enumerate(data.participations):
     print("    ", len(contest.solutions), "problems solved")
     report += meta.submission_banner
     for sub in contest.submissions:
-        report += meta.submission_template.format(
-            problem=sub["problem"],
-            ident=sub["id"],
-            num=num,
-            verdict=meta.verdict_template.format(
-                status=sub["status"][0],
-                color=sub["status"][1],
         if "lang" in sub:
+            lang, color = sub["lang"]
+            report += meta.submission_template_lang.format(
+                problem=sub["problem"],
+                ident=sub["id"],
+                lang=lang,
+                color=color,
+                num=num,
+                verdict=meta.verdict_template.format(
+                    status=sub["status"][0],
+                    color=sub["status"][1],
+                    )
+                )
         else:
             report += meta.submission_template.format(
                 problem=sub["problem"],
