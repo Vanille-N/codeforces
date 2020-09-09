@@ -117,8 +117,8 @@ import time
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
-font = {'family' : 'ubuntu',
-        'size': '10'}
+font = { 'family' : 'ubuntu',
+         'size': '10' }
 
 plt.rc('font', **font)
 
