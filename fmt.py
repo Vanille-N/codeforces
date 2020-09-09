@@ -129,7 +129,7 @@ time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 time_partial = []
 rating_incremental = []
 cumul_incr = 0
-for i in range(len(meta.rating_steps)):
+for i in range(min(len(meta.rating_steps), len(time_data))):
     cumul_incr += meta.rating_steps[i]
     time_partial.append(time_data[i])
     rating_incremental.append(1400 + rating_data[i] - cumul_incr)
