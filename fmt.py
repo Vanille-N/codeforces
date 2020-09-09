@@ -117,6 +117,11 @@ import time
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
+font = {'family' : 'ubuntu',
+        'size': '10'}
+
+plt.rc('font', **font)
+
 fig, ax = plt.subplots()
 
 time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
