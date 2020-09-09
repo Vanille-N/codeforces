@@ -46,6 +46,8 @@ titles = [
     (5000, "Legendary%20Grandmaster", "darkred"),
 ]
 
+rating_steps = [500, 350, 250, 150, 100, 50]
+
 yticks = [0, 500, 1000, 1200, 1400, 1600, 1900, 2100, 2300, 2400, 2600, 2800, 3000, 3200]
 
 def find_title(rating):
