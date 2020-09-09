@@ -129,10 +129,11 @@ time_data = [datetime(year=y, month=m, day=d) for (y, m, d) in time_data]
 time_partial = []
 rating_incremental = []
 cumul_incr = 0
+start_rating = sum(meta.rating_steps)
 for i in range(min(len(meta.rating_steps), len(time_data))):
     cumul_incr += meta.rating_steps[i]
     time_partial.append(time_data[i])
-    rating_incremental.append(1400 + rating_data[i] - cumul_incr)
+    rating_incremental.append(start_rating + rating_data[i] - cumul_incr)
 
 ax.plot(time_partial, rating_incremental, marker="o", color='grey')
 ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
