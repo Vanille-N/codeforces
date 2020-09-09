@@ -134,8 +134,8 @@ for i in range(len(meta.rating_steps)):
     time_partial.append(time_data[i])
     rating_incremental.append(1400 + rating_data[i] - cumul_incr)
 
-ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
 ax.plot(time_partial, rating_incremental, marker="o", color='grey')
+ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
 
 ax.grid(color='black', linestyle='--', linewidth=0.5)
 ax.set_yticks(meta.yticks)
