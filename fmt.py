@@ -128,18 +128,20 @@ fig.autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
 
-total_delta = time_data[-1] - time_data[0]
-time_margin = total_delta * 0.05
-extended_time = [time_data[0] - time_margin, time_data[-1] + time_margin]
+ydelta = (max_rating - min_rating) / 20
 
 for i in range(1, len(meta.titles)):
     if meta.titles[i-1][0] < max_rating:
+        ymax = min(meta.titles[i][0], max_rating)
+        ymin = max(meta.titles[i-1][0], min_rating)
         ax.axhspan(
-            max(meta.titles[i-1][0], min_rating),
-            min(meta.titles[i][0], max_rating),
+            ymax,
+            ymin,
             color=meta.titles[i][2],
             alpha=0.5
             )
+        print(ymax)
+        ax.text(time_data[0], ymax - ydelta, meta.titles[i][1])
 
 ax.set_ylim((min_rating, max_rating))
 
