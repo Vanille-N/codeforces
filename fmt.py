@@ -133,7 +133,7 @@ fig.autofmt_xdate()
 max_rating = max(rating_data) * 1.3
 min_rating = min(rating_data) - 100
 
-ydelta = (max_rating - min_rating) / 25
+ydelta = (max_rating - min_rating) / 18
 
 for i in range(1, len(meta.titles)):
     if meta.titles[i-1][0] < max_rating:
@@ -146,7 +146,7 @@ for i in range(1, len(meta.titles)):
             alpha=0.5
             )
         if ymax - ymin > ydelta * 2:
-            ax.text(time_data[0], ymax - ydelta, meta.titles[i][1].replace("%20", " "))
+            ax.text(time_data[0], ymax - ydelta, meta.titles[i][1].replace("%20", " "), fontdict={ 'size': '13' })
 
 ax.set_ylim((min_rating, max_rating))
 
