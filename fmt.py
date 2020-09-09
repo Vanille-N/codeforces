@@ -133,7 +133,10 @@ for i in range(len(meta.rating_steps)):
     cumul_incr += meta.rating_steps[i]
     time_partial.append(time_data[i])
     rating_incremental.append(1400 + rating_data[i] - cumul_incr)
+
 ax.plot(time_data, rating_data, marker="o", color='black', alpha=1)
+ax.plot(time_partial, rating_incremental, marker="o", color='grey')
+
 ax.grid(color='black', linestyle='--', linewidth=0.5)
 ax.set_yticks(meta.yticks)
 fig.autofmt_xdate()
