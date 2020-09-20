@@ -8,3 +8,11 @@ rating_change = -156
 
 solutions = [
 ]
+
+submissions = [
+    {
+        "problem": "A",
+        "id": 93265315,
+        "status": verdict.wrong_ans(68),
+    }
+]
