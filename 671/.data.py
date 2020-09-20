@@ -5,3 +5,6 @@ educ = False
 
 points = 0
 rating_change = -156
+
+solutions = [
+]
