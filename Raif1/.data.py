@@ -24,3 +24,19 @@ solutions = [
         "points": (892,1000),
     }
 ]
+
+submissions = [
+    {
+        "problem": "A",
+        "id": 95745980,
+        "status": verdict.accepted(),
+    }, {
+        "problem": "B",
+        "id": 95758646,
+        "status": verdict.accepted(),
+    }, {
+        "problem": "C",
+        "id": 95762390,
+        "status": verdict.accepted(),
+    }
+]
