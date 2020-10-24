@@ -1,12 +1,8 @@
 # [Codeforces Round #663 (Div. 2)](https://codeforces.com/contest/1391)
 
-![](https://img.shields.io/badge/Participation-2-blueviolet)
-![](https://img.shields.io/badge/Rank-2863-orange)
-![](https://img.shields.io/badge/Points-2101-blue)
+![](https://img.shields.io/badge/Participation-2-blueviolet) ![](https://img.shields.io/badge/Rank-2863-orange) ![](https://img.shields.io/badge/Points-2101-blue)
 
-![](https://img.shields.io/badge/Newbie-535-lightgrey) →
-![](https://img.shields.io/badge/Newbie-923-lightgrey)
-![](https://img.shields.io/badge/-%2B388-green)
+![](https://img.shields.io/badge/Newbie-535-lightgrey) >>> ![](https://img.shields.io/badge/Newbie-923-lightgrey) ![](https://img.shields.io/badge/-%2B388-green)
 
 ## Solutions
 | ID | Title | Time | Points |

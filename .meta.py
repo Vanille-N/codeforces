@@ -57,13 +57,9 @@ def find_title(rating):
 
 report_template = """# [{contest_name}](https://codeforces.com/contest/{num})
 
-![]({participation_badge})
-![]({rank_badge})
-![]({score})
+![]({participation_badge}) ![]({rank_badge}) ![]({score})
 
-![]({prev_rating}) →
-![]({next_rating})
-![]({rating_change})
+![]({prev_rating}) >>> ![]({next_rating}) ![]({rating_change})
 """
 
 solution_banner = """

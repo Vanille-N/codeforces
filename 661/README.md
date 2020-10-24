@@ -1,12 +1,8 @@
 # [Codeforces Round #661 (Div. 3)](https://codeforces.com/contest/1399)
 
-![](https://img.shields.io/badge/Participation-1-blueviolet)
-![](https://img.shields.io/badge/Rank-2242-orange)
-![](https://img.shields.io/badge/Penalty-195-red)
+![](https://img.shields.io/badge/Participation-1-blueviolet) ![](https://img.shields.io/badge/Rank-2242-orange) ![](https://img.shields.io/badge/Penalty-195-red)
 
-![](https://img.shields.io/badge/Unrated-0-white) →
-![](https://img.shields.io/badge/Newbie-535-lightgrey)
-![](https://img.shields.io/badge/-%2B535-green)
+![](https://img.shields.io/badge/Unrated-0-white) >>> ![](https://img.shields.io/badge/Newbie-535-lightgrey) ![](https://img.shields.io/badge/-%2B535-green)
 
 ## Solutions
 | ID | Title | Time | Penalty |

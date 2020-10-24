@@ -1,12 +1,8 @@
 # [Global Codeforces Round 10](https://codeforces.com/contest/1392)
 
-![](https://img.shields.io/badge/Participation-3-blueviolet)
-![](https://img.shields.io/badge/Rank-2203-orange)
-![](https://img.shields.io/badge/Points-2941-blue)
+![](https://img.shields.io/badge/Participation-3-blueviolet) ![](https://img.shields.io/badge/Rank-2203-orange) ![](https://img.shields.io/badge/Points-2941-blue)
 
-![](https://img.shields.io/badge/Newbie-923-lightgrey) →
-![](https://img.shields.io/badge/Pupil-1240-lightgreen)
-![](https://img.shields.io/badge/-%2B317-green)
+![](https://img.shields.io/badge/Newbie-923-lightgrey) >>> ![](https://img.shields.io/badge/Pupil-1240-lightgreen) ![](https://img.shields.io/badge/-%2B317-green)
 
 ## Solutions
 | ID | Title | Time | Points |
