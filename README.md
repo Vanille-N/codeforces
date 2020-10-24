@@ -2,7 +2,7 @@
 
 Transcription of my submissions for the Codeforces contests: [https://codeforces.com](https://codeforces.com)
 
-Handle: [![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen)](https://codeforces.com/profile/Zwgtwz)
+Handle: [![](https://img.shields.io/badge/Specialist-Zwgtwz-cyan)](https://codeforces.com/profile/Zwgtwz)
 
 All participations done in Rust.
 
@@ -15,5 +15,6 @@ All participations done in Rust.
 7.  [Codeforces Round #666 (Div. 2)](https://codeforces.com/contest/1405) as ![](https://img.shields.io/badge/Expert-Zwgtwz-blue) ![](https://img.shields.io/badge/---133-red)
 8.  [Codeforces Round #671 (Div. 2)](https://codeforces.com/contest/1419) as ![](https://img.shields.io/badge/Specialist-Zwgtwz-cyan) ![](https://img.shields.io/badge/---156-red)
 9.  [Codeforces Round #666 (Div. 2)](https://codeforces.com/contest/1417) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen) ![](https://img.shields.io/badge/---15-red)
+10.  [Codeforces Raif Round 1 (Div. 1 + Div. 2)](https://codeforces.com/contest/1428) as ![](https://img.shields.io/badge/Pupil-Zwgtwz-lightgreen) ![](https://img.shields.io/badge/-%2B74-green)
 
 ![](.graph.png)
