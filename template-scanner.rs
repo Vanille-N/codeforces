@@ -56,6 +56,9 @@ impl<T> ScanVec<T> for Scanner where Scanner: Scan<T> {
 }
 impl ScanVec<bool> for Scanner {
     fn vec(&mut self, n: usize) -> Vec<bool> {
+        if n == 0 {
+            return Vec::new();
+        }
         let s: String = self.item();
         let v: Vec<bool> = s.chars().map(|c| c == '1').collect();
         if v.len() != n {
@@ -66,6 +69,9 @@ impl ScanVec<bool> for Scanner {
 }
 impl ScanVec<char> for Scanner {
     fn vec(&mut self, n: usize) -> Vec<char> {
+        if n == 0 {
+            return Vec::new();
+        }
         let s: String = self.item();
         let v: Vec<char> = s.chars().collect();
         if v.len() != n {
